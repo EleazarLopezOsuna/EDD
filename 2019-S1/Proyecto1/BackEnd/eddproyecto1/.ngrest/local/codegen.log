@@ -1,0 +1,10 @@
+generating project: eddproyecto1
+
+service(s): eddproyecto1
+
+serviceNs=[eddproyecto1], svc=[eddproyecto1], ns=[]
+
+Generating eddproyecto1/src/eddproyecto1.h
+Generating eddproyecto1/src/eddproyecto1.cpp
+Generating eddproyecto1/CMakeLists.txt
+Generating CMakeLists.txt

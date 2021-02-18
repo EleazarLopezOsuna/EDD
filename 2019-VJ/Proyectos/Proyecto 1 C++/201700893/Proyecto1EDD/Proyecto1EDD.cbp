@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Proyecto1EDD" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Proyecto1EDD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Proyecto1EDD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ArbolABB.cpp" />
+		<Unit filename="ArbolABB.h" />
+		<Unit filename="ArbolAVL.cpp" />
+		<Unit filename="ArbolAVL.h" />
+		<Unit filename="Capa.cpp" />
+		<Unit filename="Capa.h" />
+		<Unit filename="Imagen.cpp" />
+		<Unit filename="Imagen.h" />
+		<Unit filename="ListaCapas.cpp" />
+		<Unit filename="ListaCapas.h" />
+		<Unit filename="ListaImagenes.cpp" />
+		<Unit filename="ListaImagenes.h" />
+		<Unit filename="ListaUsuario.cpp" />
+		<Unit filename="ListaUsuario.h" />
+		<Unit filename="MatrizDispersa.cpp" />
+		<Unit filename="MatrizDispersa.h" />
+		<Unit filename="NodoABB.cpp" />
+		<Unit filename="NodoABB.h" />
+		<Unit filename="NodoAVL.cpp" />
+		<Unit filename="NodoAVL.h" />
+		<Unit filename="NodoCabecera.cpp" />
+		<Unit filename="NodoCabecera.h" />
+		<Unit filename="NodoCapa.cpp" />
+		<Unit filename="NodoCapa.h" />
+		<Unit filename="NodoContenido.cpp" />
+		<Unit filename="NodoContenido.h" />
+		<Unit filename="NodoImagen.cpp" />
+		<Unit filename="NodoImagen.h" />
+		<Unit filename="NodoUsuario.cpp" />
+		<Unit filename="NodoUsuario.h" />
+		<Unit filename="Usuario.cpp" />
+		<Unit filename="Usuario.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

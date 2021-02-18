@@ -1,0 +1,5 @@
+/home/jared/eddpractica1/.ngrest/local/build/CMakeFiles/edit_cache.dir
+/home/jared/eddpractica1/.ngrest/local/build/CMakeFiles/rebuild_cache.dir
+/home/jared/eddpractica1/.ngrest/local/build/eddpractica1/CMakeFiles/edit_cache.dir
+/home/jared/eddpractica1/.ngrest/local/build/eddpractica1/CMakeFiles/rebuild_cache.dir
+/home/jared/eddpractica1/.ngrest/local/build/eddpractica1/CMakeFiles/eddpractica1.dir

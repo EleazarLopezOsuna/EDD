@@ -1,0 +1,138 @@
+digraph{
+node[shape = record]
+Imagen_1[label = "1" ; fillcolor = crimson; style = filled; group = 1]
+Imagen_1 -> Imagen_2
+Imagen_1 -> Imagen_8
+Capa_5_1 -> Capa_6_1
+Capa_5_1[label = "5" ; fillcolor = lightblue; style = filled; group = 1]
+Capa_6_1 -> Capa_7_1
+Capa_6_1[label = "6" ; fillcolor = lightblue; style = filled; group = 1]
+Capa_7_1 -> Capa_8_1
+Capa_7_1[label = "7" ; fillcolor = lightblue; style = filled; group = 1]
+Capa_8_1 -> Capa_9_1
+Capa_8_1[label = "8" ; fillcolor = lightblue; style = filled; group = 1]
+Capa_9_1 -> Capa_10_1
+Capa_9_1[label = "9" ; fillcolor = lightblue; style = filled; group = 1]
+Capa_10_1[label = "10" ; fillcolor = lightblue; style = filled; group = 1]
+Imagen_1 -> Capa_5_1
+Imagen_8[label = "8" ; fillcolor = crimson; style = filled; group = 2]
+Imagen_8 -> Imagen_1
+Imagen_8 -> Imagen_7
+Capa_11_8[label = "11" ; fillcolor = lightblue; style = filled; group = 2]
+Imagen_8 -> Capa_11_8
+Imagen_7[label = "7" ; fillcolor = crimson; style = filled; group = 3]
+Imagen_7 -> Imagen_8
+Imagen_7 -> Imagen_6
+Capa_13_7 -> Capa_12_7
+Capa_13_7[label = "13" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_12_7 -> Capa_11_7
+Capa_12_7[label = "12" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_11_7 -> Capa_10_7
+Capa_11_7[label = "11" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_10_7 -> Capa_9_7
+Capa_10_7[label = "10" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_9_7 -> Capa_8_7
+Capa_9_7[label = "9" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_8_7 -> Capa_7_7
+Capa_8_7[label = "8" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_7_7 -> Capa_6_7
+Capa_7_7[label = "7" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_6_7 -> Capa_5_7
+Capa_6_7[label = "6" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_5_7 -> Capa_4_7
+Capa_5_7[label = "5" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_4_7 -> Capa_3_7
+Capa_4_7[label = "4" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_3_7 -> Capa_2_7
+Capa_3_7[label = "3" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_2_7 -> Capa_1_7
+Capa_2_7[label = "2" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_1_7 -> Capa_0_7
+Capa_1_7[label = "1" ; fillcolor = lightblue; style = filled; group = 3]
+Capa_0_7[label = "0" ; fillcolor = lightblue; style = filled; group = 3]
+Imagen_7 -> Capa_13_7
+Imagen_6[label = "6" ; fillcolor = crimson; style = filled; group = 4]
+Imagen_6 -> Imagen_7
+Imagen_6 -> Imagen_5
+Capa_13_6 -> Capa_12_6
+Capa_13_6[label = "13" ; fillcolor = lightblue; style = filled; group = 4]
+Capa_12_6 -> Capa_9_6
+Capa_12_6[label = "12" ; fillcolor = lightblue; style = filled; group = 4]
+Capa_9_6 -> Capa_4_6
+Capa_9_6[label = "9" ; fillcolor = lightblue; style = filled; group = 4]
+Capa_4_6 -> Capa_0_6
+Capa_4_6[label = "4" ; fillcolor = lightblue; style = filled; group = 4]
+Capa_0_6 -> Capa_1_6
+Capa_0_6[label = "0" ; fillcolor = lightblue; style = filled; group = 4]
+Capa_1_6[label = "1" ; fillcolor = lightblue; style = filled; group = 4]
+Imagen_6 -> Capa_13_6
+Imagen_5[label = "5" ; fillcolor = crimson; style = filled; group = 5]
+Imagen_5 -> Imagen_6
+Imagen_5 -> Imagen_4
+Capa_12_5 -> Capa_0_5
+Capa_12_5[label = "12" ; fillcolor = lightblue; style = filled; group = 5]
+Capa_0_5[label = "0" ; fillcolor = lightblue; style = filled; group = 5]
+Imagen_5 -> Capa_12_5
+Imagen_4[label = "4" ; fillcolor = crimson; style = filled; group = 6]
+Imagen_4 -> Imagen_5
+Imagen_4 -> Imagen_3
+Capa_0_4 -> Capa_0_4
+Capa_0_4[label = "0" ; fillcolor = lightblue; style = filled; group = 6]
+Capa_0_4 -> Capa_0_4
+Capa_0_4[label = "0" ; fillcolor = lightblue; style = filled; group = 6]
+Capa_0_4 -> Capa_0_4
+Capa_0_4[label = "0" ; fillcolor = lightblue; style = filled; group = 6]
+Capa_0_4 -> Capa_0_4
+Capa_0_4[label = "0" ; fillcolor = lightblue; style = filled; group = 6]
+Capa_0_4 -> Capa_0_4
+Capa_0_4[label = "0" ; fillcolor = lightblue; style = filled; group = 6]
+Capa_0_4[label = "0" ; fillcolor = lightblue; style = filled; group = 6]
+Imagen_4 -> Capa_0_4
+Imagen_3[label = "3" ; fillcolor = crimson; style = filled; group = 7]
+Imagen_3 -> Imagen_4
+Imagen_3 -> Imagen_2
+Capa_0_3 -> Capa_1_3
+Capa_0_3[label = "0" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_1_3 -> Capa_2_3
+Capa_1_3[label = "1" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_2_3 -> Capa_3_3
+Capa_2_3[label = "2" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_3_3 -> Capa_4_3
+Capa_3_3[label = "3" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_4_3 -> Capa_5_3
+Capa_4_3[label = "4" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_5_3 -> Capa_6_3
+Capa_5_3[label = "5" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_6_3 -> Capa_7_3
+Capa_6_3[label = "6" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_7_3 -> Capa_8_3
+Capa_7_3[label = "7" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_8_3 -> Capa_9_3
+Capa_8_3[label = "8" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_9_3 -> Capa_10_3
+Capa_9_3[label = "9" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_10_3 -> Capa_11_3
+Capa_10_3[label = "10" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_11_3 -> Capa_12_3
+Capa_11_3[label = "11" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_12_3 -> Capa_13_3
+Capa_12_3[label = "12" ; fillcolor = lightblue; style = filled; group = 7]
+Capa_13_3[label = "13" ; fillcolor = lightblue; style = filled; group = 7]
+Imagen_3 -> Capa_0_3
+Imagen_2[label = "2" ; fillcolor = crimson; style = filled; group = 8]
+Imagen_2 -> Imagen_3
+Imagen_2 -> Imagen_1
+Capa_0_2 -> Capa_1_2
+Capa_0_2[label = "0" ; fillcolor = lightblue; style = filled; group = 8]
+Capa_1_2 -> Capa_2_2
+Capa_1_2[label = "1" ; fillcolor = lightblue; style = filled; group = 8]
+Capa_2_2 -> Capa_3_2
+Capa_2_2[label = "2" ; fillcolor = lightblue; style = filled; group = 8]
+Capa_3_2 -> Capa_4_2
+Capa_3_2[label = "3" ; fillcolor = lightblue; style = filled; group = 8]
+Capa_4_2 -> Capa_5_2
+Capa_4_2[label = "4" ; fillcolor = lightblue; style = filled; group = 8]
+Capa_5_2[label = "5" ; fillcolor = lightblue; style = filled; group = 8]
+Imagen_2 -> Capa_0_2
+{rank = same; Imagen_1; Imagen_8; Imagen_7; Imagen_6; Imagen_5; Imagen_4; Imagen_3; Imagen_2}
+}

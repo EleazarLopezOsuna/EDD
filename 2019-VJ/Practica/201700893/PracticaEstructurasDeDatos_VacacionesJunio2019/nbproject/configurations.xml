@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Caja.h</itemPath>
+      <itemPath>Carreta.h</itemPath>
+      <itemPath>Cliente.h</itemPath>
+      <itemPath>ColaClientes.h</itemPath>
+      <itemPath>ListaCajas.h</itemPath>
+      <itemPath>ListaClientes.h</itemPath>
+      <itemPath>NodoColaClientes.h</itemPath>
+      <itemPath>NodoListaCajas.h</itemPath>
+      <itemPath>NodoListaCompra.h</itemPath>
+      <itemPath>NodoPilaCarretas.h</itemPath>
+      <itemPath>PilaCarretas.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Caja.cpp</itemPath>
+      <itemPath>Carreta.cpp</itemPath>
+      <itemPath>Cliente.cpp</itemPath>
+      <itemPath>ColaClientes.cpp</itemPath>
+      <itemPath>ListaCajas.cpp</itemPath>
+      <itemPath>ListaClientes.cpp</itemPath>
+      <itemPath>NodoColaClientes.cpp</itemPath>
+      <itemPath>NodoListaCajas.cpp</itemPath>
+      <itemPath>NodoListaCompra.cpp</itemPath>
+      <itemPath>NodoPilaCarretas.cpp</itemPath>
+      <itemPath>PilaCarretas.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Caja.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Caja.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Carreta.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Carreta.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Cliente.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Cliente.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ColaClientes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ColaClientes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListaCajas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListaCajas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListaClientes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListaClientes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoColaClientes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoColaClientes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoListaCajas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoListaCajas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoListaCompra.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoListaCompra.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoPilaCarretas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoPilaCarretas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PilaCarretas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PilaCarretas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Caja.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Caja.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Carreta.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Carreta.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Cliente.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Cliente.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ColaClientes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ColaClientes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListaCajas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListaCajas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListaClientes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListaClientes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoColaClientes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoColaClientes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoListaCajas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoListaCajas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoListaCompra.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoListaCompra.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoPilaCarretas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoPilaCarretas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PilaCarretas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PilaCarretas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

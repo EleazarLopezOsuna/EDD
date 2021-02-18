@@ -1,0 +1,23 @@
+digraph G { 
+ node [shape=record];
+{ rank=same Curso3 Curso2 Curso1}Codigo1 [shape=record,label = "<f0> |<f1> Codigo1 Nombre1|<f2>"];
+Codigo1:f2 -> Codigo2:f1;
+Codigo2 [shape=record,label = "<f0> |<f1> Codigo2 Nombre2|<f2>"];
+Codigo2:f0 -> Codigo1:f1;
+Codigo2:f2 -> Codigo3:f1;
+Codigo1 [shape=record,label = "<f0> |<f1> Codigo1 Nombre1|<f2>"];
+Codigo3 [shape=record,label = "<f0> |<f1> Codigo3 Nombre3|<f2>"];
+Codigo3:f0 -> Codigo2:f1;
+Codigo3:f2 -> Codigo3:f1;
+Codigo2 [shape=record,label = "<f0> |<f1> Codigo2 Nombre2|<f2>"];
+Codigo3 [shape=record,label = "<f0> |<f1> Codigo3 Nombre3|<f2>"];
+Curso3 [shape=record,label = "<f0> |<f1> Curso3 Nombre3|<f2>"];
+Curso3:f0 -> Codigo3:f1;
+Curso3:f2 -> Curso2:f0;
+Curso2 [shape=record,label = "<f0> |<f1> Curso2 Nombre2|<f2>"];
+Curso2:f0 -> Codigo2:f1;
+Curso2:f2 -> Curso1:f0;
+Curso1 [shape=record,label = "<f0> |<f1> Curso1 Nombre1|<f2>"];
+Curso1:f0 -> Codigo1:f1;
+Curso1:f2 -> Curso3:f0;
+}

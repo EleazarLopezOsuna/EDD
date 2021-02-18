@@ -1,0 +1,16 @@
+digraph structs { 
+ edge[arrowhead = none] 
+ graph [pad="0.212,0.055" bgcolor=azure3] 
+ node[style = filled, fillcolor = darksalmon]; 
+"Alemania"->"Argentina"[label = "\E \n Tiempo: 100\n Costo: 100", fontsize="10", labeldistance = "4.0"];
+"Espana"->"Guatemala"[label = "\E \n Tiempo: 300\n Costo: 100", fontsize="10", labeldistance = "4.0"];
+"Espana"->"Inglaterra"[label = "\E \n Tiempo: 25\n Costo: 430", fontsize="10", labeldistance = "4.0"];
+"Guatemala"->"Mexico"[label = "\E \n Tiempo: 50\n Costo: 25", fontsize="10", labeldistance = "4.0"];
+"Guatemala"->"Mexico"[label = "\E \n Tiempo: 50\n Costo: 25", fontsize="10", labeldistance = "4.0"];
+"Inglaterra"->"Japon"[label = "\E \n Tiempo: 125\n Costo: 220", fontsize="10", labeldistance = "4.0"];
+"Italia"->"Suiza"[label = "\E \n Tiempo: 75\n Costo: 57", fontsize="10", labeldistance = "4.0"];
+"Italia"->"Japon"[label = "\E \n Tiempo: 200\n Costo: 100", fontsize="10", labeldistance = "4.0"];
+"Mexico"->"Rusia"[label = "\E \n Tiempo: 300\n Costo: 42", fontsize="10", labeldistance = "4.0"];
+"Mexico"->"Panama"[label = "\E \n Tiempo: 69\n Costo: 66", fontsize="10", labeldistance = "4.0"];
+"Rusia"->"Suiza"[label = "\E \n Tiempo: 100\n Costo: 39", fontsize="10", labeldistance = "4.0"];
+}

@@ -1,0 +1,15 @@
+digraph{
+node[shape = record;]
+Nodo_userY[label = "<f0>|<f1>userY|<f2>"; group = 1; fillcolor = darkseagreen2; style = filled]
+Nodo_userY:f0 -> Nodo_userB:f1
+Nodo_userY:f2 -> Nodo_userZ:f1
+Nodo_userB[label = "<f0>|<f1>userB|<f2>"; group = 1; fillcolor = darkseagreen2; style = filled]
+Nodo_userB:f0 -> Nodo_userA:f1
+Nodo_userB:f2 -> Nodo_userC:f1
+Nodo_userA[label = "<f0>|<f1>userA|<f2>"; group = 1; fillcolor = darkseagreen2; style = filled]
+Nodo_userC[label = "<f0>|<f1>userC|<f2>"; group = 1; fillcolor = darkseagreen2; style = filled]
+Nodo_userZ[label = "<f0>|<f1>userZ|<f2>"; group = 1; fillcolor = darkseagreen2; style = filled]
+Nodo_userZ:f2 -> Nodo_usuarioCreado:f1
+Nodo_usuarioCreado[label = "<f0>|<f1>usuarioCreado|<f2>"; group = 1; fillcolor = darkseagreen2; style = filled]
+
+}

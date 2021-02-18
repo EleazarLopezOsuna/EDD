@@ -1,0 +1,5 @@
+/home/jared/eddproyecto1/.ngrest/local/build/CMakeFiles/edit_cache.dir
+/home/jared/eddproyecto1/.ngrest/local/build/CMakeFiles/rebuild_cache.dir
+/home/jared/eddproyecto1/.ngrest/local/build/eddproyecto1/CMakeFiles/edit_cache.dir
+/home/jared/eddproyecto1/.ngrest/local/build/eddproyecto1/CMakeFiles/rebuild_cache.dir
+/home/jared/eddproyecto1/.ngrest/local/build/eddproyecto1/CMakeFiles/eddproyecto1.dir

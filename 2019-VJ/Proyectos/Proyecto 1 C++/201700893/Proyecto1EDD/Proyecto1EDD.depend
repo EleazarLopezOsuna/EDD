@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1561533857 source:c:\users\user\desktop\proyecto1edd\arbolabb.cpp
+	"ArbolABB.h"
+
+1561533282 c:\users\user\desktop\proyecto1edd\arbolabb.h
+	"NodoABB.h"
+	<iostream>
+	<string>
+	"ListaCapas.h"
+
+1561358102 c:\users\user\desktop\proyecto1edd\nodoabb.h
+	"Capa.h"
+
+1561358105 c:\users\user\desktop\proyecto1edd\capa.h
+	<string>
+	"MatrizDispersa.h"
+
+1561358100 c:\users\user\desktop\proyecto1edd\matrizdispersa.h
+	"NodoCabecera.h"
+	<string>
+	<iostream>
+
+1561358098 c:\users\user\desktop\proyecto1edd\nodocabecera.h
+	"NodoContenido.h"
+
+1561358085 c:\users\user\desktop\proyecto1edd\nodocontenido.h
+	<string>
+
+1561531105 source:c:\users\user\desktop\proyecto1edd\arbolavl.cpp
+	"ArbolAVL.h"
+	"Usuario.h"
+
+1561522384 c:\users\user\desktop\proyecto1edd\arbolavl.h
+	"NodoAVL.h"
+	"ListaImagenes.h"
+	"ListaUsuario.h"
+
+1561358099 c:\users\user\desktop\proyecto1edd\nodoavl.h
+	"Usuario.h"
+
+1561522355 c:\users\user\desktop\proyecto1edd\usuario.h
+	"ListaImagenes.h"
+	<string>
+
+1561487953 c:\users\user\desktop\proyecto1edd\listaimagenes.h
+	<string>
+	<iostream>
+	"Imagen.h"
+	"NodoImagen.h"
+
+1561358107 c:\users\user\desktop\proyecto1edd\imagen.h
+	"ListaCapas.h"
+
+1561533096 c:\users\user\desktop\proyecto1edd\listacapas.h
+	"Capa.h"
+	"NodoCapa.h"
+
+1561358093 c:\users\user\desktop\proyecto1edd\nodocapa.h
+	"Capa.h"
+
+1561358088 c:\users\user\desktop\proyecto1edd\nodoimagen.h
+	"Imagen.h"
+
+1561358029 source:c:\users\user\desktop\proyecto1edd\capa.cpp
+	"Capa.h"
+
+1561358030 source:c:\users\user\desktop\proyecto1edd\imagen.cpp
+	"Imagen.h"
+
+1561533165 source:c:\users\user\desktop\proyecto1edd\listacapas.cpp
+	"ListaCapas.h"
+
+1561361535 source:c:\users\user\desktop\proyecto1edd\matrizdispersa.cpp
+	"MatrizDispersa.h"
+
+1561358032 source:c:\users\user\desktop\proyecto1edd\nodoabb.cpp
+	"NodoABB.h"
+
+1561358032 source:c:\users\user\desktop\proyecto1edd\nodoavl.cpp
+	"NodoAVL.h"
+
+1561358033 source:c:\users\user\desktop\proyecto1edd\nodocabecera.cpp
+	"NodoCabecera.h"
+
+1561358022 source:c:\users\user\desktop\proyecto1edd\nodocapa.cpp
+	"NodoCapa.h"
+
+1561358040 source:c:\users\user\desktop\proyecto1edd\nodocontenido.cpp
+	"NodoContenido.h"
+
+1561358041 source:c:\users\user\desktop\proyecto1edd\nodoimagen.cpp
+	"NodoImagen.h"
+
+1561358042 source:c:\users\user\desktop\proyecto1edd\nodousuario.cpp
+	"NodoUsuario.h"
+
+1561358085 c:\users\user\desktop\proyecto1edd\nodousuario.h
+	"Usuario.h"
+
+1561522370 source:c:\users\user\desktop\proyecto1edd\usuario.cpp
+	"Usuario.h"
+
+1561489361 source:c:\users\user\desktop\proyecto1edd\listaimagenes.cpp
+	"ListaImagenes.h"
+
+1561533981 source:c:\users\user\desktop\proyecto1edd\main.cpp
+	"Capa.h"
+	"ListaImagenes.h"
+	"Imagen.h"
+	"Usuario.h"
+	"ListaCapas.h"
+	"ArbolABB.h"
+	"ArbolAVL.h"
+	"MatrizDispersa.h"
+	<fstream>
+	<cstring>
+	<windows.h>
+	<cstdlib>
+	<string>
+	<iostream>
+	<sstream>
+
+1561530952 c:\users\user\desktop\proyecto1edd\listausuario.h
+	"NodoUsuario.h"
+
+1561531122 source:c:\users\user\desktop\proyecto1edd\listausuario.cpp
+	"ListaUsuario.h"
+

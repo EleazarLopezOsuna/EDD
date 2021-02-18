@@ -1,0 +1,10 @@
+generating project: eddpractica1
+
+service(s): eddpractica1
+
+serviceNs=[eddpractica1], svc=[eddpractica1], ns=[]
+
+Generating eddpractica1/src/eddpractica1.h
+Generating eddpractica1/src/eddpractica1.cpp
+Generating eddpractica1/CMakeLists.txt
+Generating CMakeLists.txt

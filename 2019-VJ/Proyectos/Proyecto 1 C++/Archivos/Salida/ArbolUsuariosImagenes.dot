@@ -1,0 +1,54 @@
+digraph{
+node[shape = record;]
+Nodo_userM[label = "<f0>|<f1>userM|<f2>"; group = 1;fillcolor = crimson; style = filled]
+Nodo_userM:f1 -> Imagen_5userM
+Imagen_5userM[label = "5"; style = filled; fillcolor = skyblue]
+Imagen_5userM -> Imagen_7userM
+Imagen_5userM -> Imagen_7userM
+Imagen_7userM[label = "7"; style = filled; fillcolor = skyblue]
+Imagen_7userM -> Imagen_5userM
+Imagen_7userM -> Imagen_5userM
+
+Nodo_userM:f0 -> Nodo_userB:f1
+Nodo_userM:f2 -> Nodo_userZ:f1
+Nodo_userB[label = "<f0>|<f1>userB|<f2>"; group = 1;fillcolor = crimson; style = filled]
+Nodo_userB:f1 -> Imagen_2userB
+Imagen_2userB[label = "2"; style = filled; fillcolor = skyblue]
+Imagen_2userB -> Imagen_2userB
+Imagen_2userB -> Imagen_2userB
+
+Nodo_userB:f0 -> Nodo_userA:f1
+Nodo_userB:f2 -> Nodo_userC:f1
+Nodo_userA[label = "<f0>|<f1>userA|<f2>"; group = 1;fillcolor = crimson; style = filled]
+Nodo_userA:f1 -> Imagen_3userA
+Imagen_3userA[label = "3"; style = filled; fillcolor = skyblue]
+Imagen_3userA -> Imagen_4userA
+Imagen_3userA -> Imagen_4userA
+Imagen_4userA[label = "4"; style = filled; fillcolor = skyblue]
+Imagen_4userA -> Imagen_3userA
+Imagen_4userA -> Imagen_3userA
+
+Nodo_userC[label = "<f0>|<f1>userC|<f2>"; group = 1;fillcolor = crimson; style = filled]
+Nodo_userZ[label = "<f0>|<f1>userZ|<f2>"; group = 1;fillcolor = crimson; style = filled]
+Nodo_userZ:f0 -> Nodo_userY:f1
+Nodo_userZ:f2 -> Nodo_usuarioCreado:f1
+Nodo_userY[label = "<f0>|<f1>userY|<f2>"; group = 1;fillcolor = crimson; style = filled]
+Nodo_userY:f1 -> Imagen_1userY
+Imagen_1userY[label = "1"; style = filled; fillcolor = skyblue]
+Imagen_1userY -> Imagen_5userY
+Imagen_1userY -> Imagen_4userY
+Imagen_4userY[label = "4"; style = filled; fillcolor = skyblue]
+Imagen_4userY -> Imagen_1userY
+Imagen_4userY -> Imagen_5userY
+Imagen_5userY[label = "5"; style = filled; fillcolor = skyblue]
+Imagen_5userY -> Imagen_4userY
+Imagen_5userY -> Imagen_1userY
+
+Nodo_usuarioCreado[label = "<f0>|<f1>usuarioCreado|<f2>"; group = 1;fillcolor = crimson; style = filled]
+Nodo_usuarioCreado:f1 -> Imagen_5usuarioCreado
+Imagen_5usuarioCreado[label = "5"; style = filled; fillcolor = skyblue]
+Imagen_5usuarioCreado -> Imagen_5usuarioCreado
+Imagen_5usuarioCreado -> Imagen_5usuarioCreado
+
+
+}

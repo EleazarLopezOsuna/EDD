@@ -1,0 +1,6 @@
+digraph structs { 
+ edge[arrowhead = none] 
+ graph [pad="0.212,0.055" bgcolor=azure3] 
+ node[style = filled, fillcolor = darksalmon]; 
+"Guatemala"->"Espana"->"Inglaterra"->"Japon"->"Italia"
+"Mexico"->"Rusia"->"Suiza"->}

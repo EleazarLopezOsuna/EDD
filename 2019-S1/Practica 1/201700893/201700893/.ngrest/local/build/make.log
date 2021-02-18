@@ -1,0 +1,5 @@
+Scanning dependencies of target eddpractica1
+[ 12%] Building CXX object eddpractica1/CMakeFiles/eddpractica1.dir/src/estructuras.cpp.o
+[ 25%] Building CXX object eddpractica1/CMakeFiles/eddpractica1.dir/src/eddpractica1.cpp.o
+[ 37%] Linking CXX shared module ../deploy/share/ngrest/services/eddpractica1.so
+[100%] Built target eddpractica1
